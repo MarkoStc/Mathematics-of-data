@@ -2,7 +2,7 @@ import time
 import numpy as np
 import scipy.sparse.linalg as spla
 from numpy.random import randint
-from scipy.sparse.linalg.dsolve import linsolve
+from scipy.sparse.linalg.dsolve import spsolve
 from itertools import count
 
 
